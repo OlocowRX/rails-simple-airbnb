@@ -1,0 +1,11 @@
+<%= render 'navbar' %>
+
+<div class="container mt-3">
+  <div class="header">
+    <h1>All our Flats</h1>
+    <p>All 5 flats.</p>
+  </div>
+  <div class="cards">
+      <%= render 'card', flats: @flats %>
+  </div>
+</div>

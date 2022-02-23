@@ -1,0 +1,25 @@
+<%= render 'navbar' %>
+
+<%= render 'banner', flat: @flat %>
+
+<div class="container-show">
+  <div class="text-area">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title"><%= @flat.name %></h5>
+        <p class="card-text"><%= @flat.address %></p>
+      </div>
+    </div>
+
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">A bit more about this flat...</h5>
+        <p class="card-text"><%= @flat.description %></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-1">
+    <%= render 'sidebar', flat: @flat %>
+  </div>
+</div>

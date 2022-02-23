@@ -1,0 +1,41 @@
+<div class="sidebar">
+    <div class="booking">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Book this Flat</h5>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">From:</span>
+            <input type="text" placeholder='22/02/2022' class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">To:</span>
+            <input type="text" placeholder='11/04/2022' class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <button type="button" class="btn btn-success">Success</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="details">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Details</h3>
+          <%= render 'icon', flat: @flat %>
+        </div>
+      </div>
+    </div>
+
+    <div class="media">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body d-flex justify-content-between">
+          <h5 class="card-title">Share</h5>
+            <div class="icons">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-pinterest-square"></i>
+              <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
