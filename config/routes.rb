@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :flats do
     resources :reviews
   end
+  root to: 'flats#index'
 end
