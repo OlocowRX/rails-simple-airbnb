@@ -3,26 +3,21 @@
   justify-content: center;
   align-items: center;
 }
+.neri  {
+  display: inline-block;
+}
 
 .text-area {
   width: 900px;
-  left: 160px;
-  top: -70px
+  left: 3vh;
+  top: -70px;
+  position: relative;
+  display: inline-block;
 }
 
 .sidebar-details {
-  right: 160px;
-  top: -70px
-}
-
-.neri  {
+  right: 3vh;
+  top: -70px;
   position: relative;
-}
-
-.neri .lucas{
-  position: absolute;
-}
-
-.neri .sidebar-details {
-  position: absolute;
+  display: inline-block;
 }
